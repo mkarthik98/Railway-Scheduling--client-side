@@ -1,0 +1,27 @@
+.containerHome {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dash-btn {
+    height: 4rem;
+    width: 8rem;
+    border: none;
+    outline: 0;
+    background-color: turquoise;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 200;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.dash-btn:hover {
+    border: none;
+    background-color: skyblue;
+}
